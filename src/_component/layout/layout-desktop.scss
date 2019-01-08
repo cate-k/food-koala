@@ -1,3 +1,32 @@
 @media (min-width: 1280px) {
-    
+    //- Nav menu
+    .nav {
+        display: flex;
+    }
+
+    .logo {
+        background-image: url(/asset/image/food-koala-logo.png);
+        background-size: cover;
+        height: 150px;
+        width: 150px;
+        margin-top: 0.7rem;
+        margin-left: 4.5rem;
+    }
+
+    .menu {
+        display: flex;
+        font-size: 0.6rem;
+        margin-top: 1.7rem;
+        margin-left: 15.5rem;
+
+        a {
+            color: black;
+            text-decoration: none;
+            margin-left: 0.7rem;
+
+            &:hover {
+                border-bottom: 2px solid $colour-emerald;
+            }
+        }
+    }
 }
