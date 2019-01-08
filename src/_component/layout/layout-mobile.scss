@@ -1,0 +1,42 @@
+//- General
+html,
+body {
+    height: 100%;
+    font-family: 'Quicksand';
+}
+
+//- Responsiveness
+@media screen and (min-width: 25em){
+    html { font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) ); }
+}
+
+//- Nav menu
+.nav {
+    display: flex;
+}
+
+.logo {
+    background-image: url(/asset/image/food-koala-logo.png);
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    margin-top: 0.5rem;
+    margin-left: 7rem;
+}
+
+.menu {
+    display: flex;
+    font-size: 0.6rem;
+    margin-top: 1.7rem;
+    margin-left: 14.8rem;
+
+    a {
+        color: black;
+        text-decoration: none;
+        margin-left: 0.7rem;
+
+        &:hover {
+            border-bottom: 2px solid $colour-emerald;
+        }
+    }
+}

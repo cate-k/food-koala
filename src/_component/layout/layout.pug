@@ -1,0 +1,18 @@
+doctype html
+html
+    - var baseUrl = taskTarget === 'tmp' ? '' : '/food-koala'
+    head
+        title FoodKoala
+        meta(
+            name="description",
+            content="FoodKoala"
+        )
+        link(
+            rel="stylesheet",
+            href='/style.css'
+        )
+        //- href=`${baseUrl}style.css`
+    body
+        include ../menu/menu
+        block content
+        include ../footer/footer
