@@ -45,4 +45,35 @@ body {
 .footer {
     background-color: $colour-mine-shaft;
     color: $colour-gray;
+    font-size: 0.4rem;
+    margin-top: 1rem;
+    padding: 1.2rem;
+    text-align: center;
+
+    .fk--facebook,
+    .fk--twitter,
+    .fk--instagram {
+        text-decoration: none;
+        color: $colour-gray;
+        font-size: 0.5rem;
+        padding: 0.3rem;
+    }
+
+    .fk--facebook {
+        &:hover {
+            color: $colour-chambray;
+        }
+    }
+
+    .fk--twitter {
+        &:hover {
+            color: $colour-cerulean;
+        }
+    }
+
+    .fk--instagram {
+        &:hover {
+            color: $colour-medium-red-violet;
+        }
+    }
 }
