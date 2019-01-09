@@ -26,7 +26,7 @@ body {
 
 .menu {
     display: flex;
-    font-size: 0.4rem;
+    font-size: 0.45rem;
     margin-top: 1.7rem;
     margin-left: 1rem;
 
@@ -39,4 +39,10 @@ body {
             border-bottom: 2px solid $colour-emerald;
         }
     }
+}
+
+//- Footer
+.footer {
+    background-color: $colour-mine-shaft;
+    color: $colour-gray;
 }
