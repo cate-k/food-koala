@@ -7,16 +7,15 @@
     .logo {
         background-image: url(/asset/image/food-koala-logo.png);
         background-size: cover;
-        height: 150px;
-        width: 150px;
+        height: 120px;
+        width: 120px;
         margin-top: 0.7rem;
-        margin-left: 4.5rem;
+        margin-left: 5rem;
     }
 
     .menu {
         display: flex;
-        font-size: 0.6rem;
-        margin-top: 1.7rem;
+        font-size: 0.5rem;
         margin-left: 15.5rem;
 
         a {
@@ -28,5 +27,15 @@
                 border-bottom: 2px solid $colour-emerald;
             }
         }
+    }
+
+    .text {
+        color: white;
+        text-transform: capitalize;
+        font-size: 1.5rem;
+        width: 40%;
+        text-align: center;
+        padding-top: 5rem;
+        padding-left: 3rem;
     }
 }
