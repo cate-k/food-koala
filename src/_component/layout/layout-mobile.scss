@@ -108,3 +108,33 @@ body {
     padding-top: 5rem;
     padding-left: 3rem;
 }
+
+//- Intro text
+.intro-text {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.emerald-hr {
+    color: $colour-emerald;
+    width: 5%;
+}
+
+.intro-body {
+    font-size: 0.5rem;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 1rem;
+}
+
+
+.homepage-icons {
+    .fk--calendar,
+    .fk--clock,
+    .fk--food {
+        color: $colour-emerald;
+    }
+
+    
+}
