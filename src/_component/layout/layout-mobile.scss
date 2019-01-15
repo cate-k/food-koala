@@ -129,34 +129,38 @@ body {
 }
 
 .homepage-icons {
+    color: $colour-boulder;
     text-align: center;
+    font-size: 0.4rem;
     text-transform: capitalize;
     display: flex;
-    color: $colour-boulder;
-    font-size: 0.5rem;
-    // width: 60%;
+    justify-content: center;
 
     .fk--calendar,
     .fk--clock,
     .fk--food {
         color: $colour-emerald;
         font-size: 1rem;
+        margin-bottom: 0.2rem;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 0.2rem;
     }
-    
+
     .pick-recipe {
-        // margin-left: 1rem;
+        width: 3.5rem;
+        line-height: 0.6rem;
     }
 
     .delivery-date {
-        // margin-left: 1rem;
-        text-align: center;
+        width: 3.5rem;
+        line-height: 0.6rem;
+        margin-left: 1rem;
     }
 
     .cook {
-        // margin-left: 0.8rem;
+        width: 3.5rem;
+        line-height: 0.6rem;
+        margin-left: 1rem;
     }
 }
