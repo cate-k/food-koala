@@ -164,3 +164,27 @@ body {
         margin-left: 1rem;
     }
 }
+
+//- View menu
+.bg-food-img {
+    background-image: url(/asset/image/pumpkin-soup.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        text-decoration: none;
+        color: white;
+
+        &:hover {
+            border: 3px solid $colour-emerald;
+            border-radius: 5px;
+            padding: 0.3rem;
+            transition: all 1s ease;
+        }
+    }
+}
