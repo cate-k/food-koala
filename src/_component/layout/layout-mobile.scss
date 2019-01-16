@@ -188,3 +188,33 @@ body {
         }
     }
 }
+
+//- Testimonials
+
+
+//- Download the app
+.download-body {
+    text-align: center;
+    font-size: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+}
+
+.download-app {
+    background-image: url('asset/image/download-app-store.png');
+    background-size: cover;
+    height: 32px;
+    width: 108px;
+}
+
+.download-on-google {
+    background-image: url('asset/image/download-app-android.png');
+    background-size: cover;
+    height: 32px;
+    width: 91.7333px;
+    margin-left: 0.3rem;
+}
