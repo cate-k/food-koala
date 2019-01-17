@@ -194,7 +194,67 @@ body {
 }
 
 //- Testimonials
+.testimonial-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.5rem;
+}
 
+.testimonial-card {
+    font-size: 0.5rem;
+    border: 1.5px solid $colour-emerald;
+    border-radius: 5px;
+    margin-left: 1.5rem;
+}
+
+.card-body {
+    text-align: center;
+    font-size: 0.5rem;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+    padding: 1.5rem;
+    height: 2rem;
+    width: 5rem;
+}
+
+.card-bottom {
+    background-color: $colour-emerald;
+    font-size: 0.5rem;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.brianna-picture {
+    background-image: url(asset/image/brianna-ashton.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left: 25%;
+    margin-bottom: 0.5rem;
+}
+
+.keira-picture {
+    background-image: url(asset/image/keira-cartwright.jpg);
+    background-position: center center;
+    background-size: cover;
+    border-radius: 50%;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left: 28%;
+    margin-bottom: 0.5rem;
+}
+
+.ethan-picture {
+    background-image: url(asset/image/ethan-tyler.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left: 28%;
+    margin-bottom: 0.5rem;
+}
 
 //- Download the app
 .download-body {
