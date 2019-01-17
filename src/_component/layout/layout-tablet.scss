@@ -1,45 +1,4 @@
-@media (min-width: 1280px) {
-    //- Nav menu
-    .nav {
-        display: flex;
-    }
-
-    .logo {
-        background-image: url(/asset/image/food-koala-logo.png);
-        background-size: cover;
-        height: 120px;
-        width: 120px;
-        margin-top: 0.7rem;
-        margin-left: 5rem;
-    }
-
-    .menu {
-        display: flex;
-        font-size: 0.5rem;
-        margin-left: 15.5rem;
-
-        a {
-            color: black;
-            text-decoration: none;
-            margin-left: 0.7rem;
-
-            &:hover {
-                border-bottom: 2px solid $colour-emerald;
-            }
-        }
-    }
-
-    .text {
-        color: white;
-        text-transform: capitalize;
-        font-size: 1.5rem;
-        width: 40%;
-        text-align: center;
-        padding-top: 5rem;
-        padding-left: 3rem;
-    }
-
-
+@media (min-width: 768px) {
     //- Testimonials
     .testimonial-cards {
         display: flex;
@@ -47,14 +6,14 @@
         align-items: center;
         margin-right: 1.5rem;
     }
-
+    
     .testimonial-card {
         font-size: 0.5rem;
         border: 1.5px solid $colour-emerald;
         border-radius: 5px;
         margin-left: 1.5rem;
     }
-
+    
     .card-body {
         text-align: center;
         font-size: 0.5rem;
@@ -64,14 +23,14 @@
         height: 2rem;
         width: 5rem;
     }
-
+    
     .card-bottom {
         background-color: $colour-emerald;
         font-size: 0.5rem;
         text-align: center;
         padding: 0.5rem;
     }
-
+    
     .brianna-picture {
         background-image: url(asset/image/brianna-sturgess.jpg);
         background-size: cover;
@@ -81,7 +40,7 @@
         margin-left: 38%;
         margin-bottom: 0.5rem;
     }
-
+    
     .keira-picture {
         background-image: url(asset/image/keira-cartwright.jpg);
         background-position: center center;
@@ -92,7 +51,7 @@
         margin-left: 38%;
         margin-bottom: 0.5rem;
     }
-
+    
     .ethan-picture {
         background-image: url(asset/image/ethan-tyler.jpg);
         background-size: cover;
