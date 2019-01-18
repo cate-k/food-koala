@@ -105,11 +105,14 @@
 
 
     //- Weekly Menu
-    .recipe-cards {
+    .recipe-cards-wrapper {
+        margin-top: 1rem;
+
         a {
             text-decoration: none;
             color: black;
-            font-size: 0.8rem;
+            font-size: 0.5rem;
+            width: 436px;
 
             &:hover {
                 color: $colour-emerald;
@@ -118,79 +121,61 @@
         }
     }
 
-    .recipe-card {
+    .recipe-cards {
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 0.5rem;
-        margin-bottom: 0.5rem;
+        margin-top: 1rem;
     }
 
-    .tag {
+    .right-aligned {
+        margin-left: 1rem;
+    }
+
+    //- Tags
+    .tags {
+        display: flex;
+    }
+
+    .tag-right {
+        margin-left: 1rem;
+    }
+
+    .tag,
+    .tag-right {
         color: $colour-flint;
         text-align: center;
         text-transform: uppercase;
-        font-size: 0.5rem;
-        background-color: $colour-wild-sand;
-        height: 0.5rem;
-        width: 2rem;
-        padding: 0.2rem;
-        margin-left: 0.5rem;
-    }
-
-    .tag-veg {
-        color: $colour-flint;
-        text-align: center;
-        text-transform: uppercase;
-        font-size: 0.5rem;
+        font-size: 0.4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background-color: $colour-wild-sand;
         height: 0.5rem;
         width: 3rem;
         padding: 0.2rem;
-        margin-left: 0.5rem;
+        margin-top: 0.2rem;
     }
 
-    //- Recipe card one
-    .quiche-pic {
-        background-image: url(asset/image/quiche.jpg);
-        background-size: cover;
-        border-radius: 5px;
-        height: 303px;
-        width: 436px;
+    .tag-veg,
+    .tag-spicy {
+        color: $colour-flint;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 0.4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $colour-wild-sand;
+        height: 0.5rem;
+        width: 3rem;
+        padding: 0.2rem;
+        margin-top: 0.2rem;
+        margin-left: 0.2rem;
     }
 
-    //- Recipe card two
-    .casserole-pic {
-        background-image: url(asset/image/casserole.jpg);
-        background-position: center center;
-        background-size: cover;
-        border-radius: 5px;
-        height: 303px;
-        width: 436px;
-    }
-
-    //- Recipe card three
-    .tandoori-pic {
-        background-image: url(asset/image/tandoori.jpg);
-        background-position: center center;
-        background-size: cover;
-        border-radius: 5px;
-        height: 303px;
-        width: 436px;
-    }
-
-    //- Recipe card four
-    .pumpkin-soup-pic {
-        background-image: url(asset/image/pumpkin-soup.jpg);
-        background-position: center center;
-        background-size: cover;
-        border-radius: 5px;
-        height: 303px;
-        width: 436px;
-    }
-
-    //- Recipe card five
-    .asparagus-burger-pic {
+    //- Card one
+    .ab-pic {
         background-image: url(asset/image/asparagus-burger.jpg);
         background-position: center center;
         background-size: cover;
@@ -199,7 +184,60 @@
         width: 436px;
     }
 
-    //- Recipe card six
+    //- Card two
+    .dumplings-pic {
+        background-image: url(asset/image/dumplings.jpg);
+        background-position: center center;
+        background-size: cover;
+        border-radius: 5px;
+        height: 303px;
+        width: 436px;
+        margin-left: 1rem;
+    }
+
+    //- Card three
+    .cc-pic {
+        background-image: url(asset/image/crispy-chicken-with-rice.jpg);
+        background-position: center center;
+        background-size: cover;
+        border-radius: 5px;
+        height: 303px;
+        width: 436px;
+    }
+
+    //- Card four
+    .salad-pic {
+        background-image: url(asset/image/salad.jpg);
+        background-position: center center;
+        background-size: cover;
+        border-radius: 5px;
+        height: 303px;
+        width: 436px;
+        margin-left: 1rem;
+    }
+
+    //- Card five
+    .ps-pic {
+        background-image: url(asset/image/pumpkin-soup.jpg);
+        background-position: center center;
+        background-size: cover;
+        border-radius: 5px;
+        height: 303px;
+        width: 436px;
+    }
+
+    //- Card six
+    .ssn-pic {
+        background-image: url(asset/image/stir-fry-noodles.jpg);
+        background-position: center center;
+        background-size: cover;
+        border-radius: 5px;
+        height: 303px;
+        width: 436px;
+        margin-left: 1rem;
+    }
+
+    //- Card seven
     .udon-pic {
         background-image: url(asset/image/udon.jpg);
         background-position: center center;
@@ -209,44 +247,18 @@
         width: 436px;
     }
 
-    //- Recipe card seven
-    .grilled-chicken-pic {
-        background-image: url(asset/image/grilled-chicken.jpg);
+    //- Card eight
+    .tandoori-pic {
+        background-image: url(asset/image/tandoori.jpg);
         background-position: center center;
         background-size: cover;
         border-radius: 5px;
         height: 303px;
         width: 436px;
+        margin-left: 1rem;
     }
 
-    //- Recipe card eight
-    .salad-pic {
-        background-image: url(asset/image/salad.jpg);
-        background-size: cover;
-        border-radius: 5px;
-        height: 303px;
-        width: 436px;
-    }
-
-    //- Recipe card nine
-    .crispy-chicken-pic {
-        background-image: url(asset/image/crispy-chicken-with-rice.jpg);
-        background-size: cover;
-        border-radius: 5px;
-        height: 303px;
-        width: 436px;
-    }
-
-    //- Recipe card ten
-    .stir-fry-pic {
-        background-image: url(asset/image/stir-fry-noodles.jpg);
-        background-size: cover;
-        border-radius: 5px;
-        height: 303px;
-        width: 436px;
-    }
-
-    //- Recipe card eleven
+    //- Card nine
     .carbonara-pic {
         background-image: url(asset/image/carbonara.jpg);
         background-position: center center;
@@ -256,13 +268,35 @@
         width: 436px;
     }
 
-    //- Recipe card twelve
-    .dumplings-pic {
-        background-image: url(asset/image/dumplings.jpg);
+    //- Card ten
+    .gc-pic {
+        background-image: url(asset/image/grilled-chicken.jpg);
         background-position: center center;
         background-size: cover;
         border-radius: 5px;
         height: 303px;
         width: 436px;
+        margin-left: 1rem;
+    }
+
+    //- Card eleven
+    .quiche-pic {
+        background-image: url(asset/image/quiche.jpg);
+        background-position: center center;
+        background-size: cover;
+        border-radius: 5px;
+        height: 303px;
+        width: 436px;
+    }
+
+    //- Card twelve
+    .casserole-pic {
+        background-image: url(asset/image/casserole.jpg);
+        background-position: center center;
+        background-size: cover;
+        border-radius: 5px;
+        height: 303px;
+        width: 436px;
+        margin-left: 1rem;
     }
 }

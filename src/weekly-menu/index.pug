@@ -3,67 +3,73 @@ extends ../_component/layout/layout
 block content
     h1.intro-text Our Weekly Menu
     hr.emerald-hr
-    .recipe-cards
-        //- Card column one
-        .recipe-card
+    .recipe-cards-wrapper
+        .recipe-cards
             .card-one
-                .quiche-pic
-                a(href="#") Quiche
-                .tag-veg Vegetarian
-            .card-two
-                .casserole-pic
-                a(href="#") Casserole
-                .tag-veg Vegetarian
-        //- Card column two
-        .recipe-card
-            .card-three
-                .tandoori-pic
-                a(href="#") Tandoori
-                span.tag Meat
-                span.tag Spicy
-            .card-four
-                .pumpkin-soup-pic
-                a(href="#") Pumpkin Soup
-                .tag-veg Vegetarian
-        //- Card column three
-        .recipe-card
-            .card-five
-                .asparagus-burger-pic
+                .ab-pic
                 a(href="#") Asparagus Burger
-                .tag-veg Vegetarian
+                .tags
+                    .tag Vegetarian
+            .card-two
+                .dumplings-pic
+                a.right-aligned(href="#") Dumplings
+                .tags
+                    .tag-right Vegan
+                    .tag-veg Vegetarian
+        .recipe-cards
+            .card-three
+                .cc-pic
+                a(href="#") Crispy Chicken with Rice & Broccoli
+                .tags
+                    .tag Meat
+            .card-four
+                .salad-pic
+                a.right-aligned(href="#") Salad
+                .tags
+                    .tag-right Vegan
+                    .tag-veg Vegetarian
+        .recipe-cards
+            .card-five
+                .ps-pic
+                a(href="#") Pumpkin Soup
+                .tags
+                    .tag Vegetarian
             .card-six
+                .ssn-pic
+                a.right-aligned(href="#") Stir Fry Noodles
+                .tags
+                    .tag-right Prawns
+        .recipe-cards
+            .card-seven
                 .udon-pic
                 a(href="#") Udon
-                .tag-veg Vegetarian
-        //- Card column four
-        .recipe-card
-            .card-seven
-                .grilled-chicken-pic
-                a(href="#") Grilled Chicken
-                .tag Meat
+                .tags
+                    .tag Vegetarian
             .card-eight
-                .salad-pic
-                a(href="#") Salad
-                span.tag Vegan
-                span.tag-veg Vegetarian
-        //- Card column five
-        .recipe-card
+                .tandoori-pic
+                a.right-aligned(href="#") Tandoori
+                .tags
+                    .tag-right Meat
+                    .tag-spicy Spicy
+        .recipe-cards
             .card-nine
-                .crispy-chicken-pic
-                a(href="#") Crispy Chicken with Rice & Broccoli
-                .tag Meat
-            .card-ten
-                .stir-fry-pic
-                a(href="#") Stir Fry Noodles
-                .tag Prawns
-        //- Card column six
-        .recipe-card
-            .card-eleven
                 .carbonara-pic
                 a(href="#") Carbonara
-                .tag-veg Vegetarian
+                .tags
+                    .tag Vegetarian
+            .card-ten
+                .gc-pic
+                a.right-aligned(href="#") Grilled Chicken
+                .tags
+                    .tag-right Meat
+        .recipe-cards
+            .card-eleven
+                .quiche-pic
+                a(href="#") Quiche
+                .tags
+                    .tag Vegetarian
             .card-twelve
-                .dumplings-pic
-                a(href="#") Dumplings
-                span.tag Vegan
-                span.tag-veg Vegetarian
+                .casserole-pic
+                a.right-aligned(href="#") Casserole
+                .tags
+                    .tag-right Vegetarian
