@@ -102,4 +102,167 @@
         margin-left: 38%;
         margin-bottom: 0.5rem;
     }
+
+
+    //- Weekly Menu
+    .recipe-cards {
+        a {
+            text-decoration: none;
+            color: black;
+            font-size: 0.8rem;
+
+            &:hover {
+                color: $colour-emerald;
+                transition: 0.4s;
+            }
+        }
+    }
+
+    .recipe-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .tag {
+        color: $colour-flint;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 0.5rem;
+        background-color: $colour-wild-sand;
+        height: 0.5rem;
+        width: 2rem;
+        padding: 0.2rem;
+        margin-left: 0.5rem;
+    }
+
+    .tag-veg {
+        color: $colour-flint;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 0.5rem;
+        background-color: $colour-wild-sand;
+        height: 0.5rem;
+        width: 3rem;
+        padding: 0.2rem;
+        margin-left: 0.5rem;
+    }
+
+    //- Recipe card one
+    .quiche-pic {
+        background-image: url(asset/image/quiche.jpg);
+        background-size: cover;
+        border-radius: 5px;
+        height: 303px;
+        width: 436px;
+    }
+
+    //- Recipe card two
+    .casserole-pic {
+        background-image: url(asset/image/casserole.jpg);
+        background-position: center center;
+        background-size: cover;
+        border-radius: 5px;
+        height: 303px;
+        width: 436px;
+    }
+
+    //- Recipe card three
+    .tandoori-pic {
+        background-image: url(asset/image/tandoori.jpg);
+        background-position: center center;
+        background-size: cover;
+        border-radius: 5px;
+        height: 303px;
+        width: 436px;
+    }
+
+    //- Recipe card four
+    .pumpkin-soup-pic {
+        background-image: url(asset/image/pumpkin-soup.jpg);
+        background-position: center center;
+        background-size: cover;
+        border-radius: 5px;
+        height: 303px;
+        width: 436px;
+    }
+
+    //- Recipe card five
+    .asparagus-burger-pic {
+        background-image: url(asset/image/asparagus-burger.jpg);
+        background-position: center center;
+        background-size: cover;
+        border-radius: 5px;
+        height: 303px;
+        width: 436px;
+    }
+
+    //- Recipe card six
+    .udon-pic {
+        background-image: url(asset/image/udon.jpg);
+        background-position: center center;
+        background-size: cover;
+        border-radius: 5px;
+        height: 303px;
+        width: 436px;
+    }
+
+    //- Recipe card seven
+    .grilled-chicken-pic {
+        background-image: url(asset/image/grilled-chicken.jpg);
+        background-position: center center;
+        background-size: cover;
+        border-radius: 5px;
+        height: 303px;
+        width: 436px;
+    }
+
+    //- Recipe card eight
+    .salad-pic {
+        background-image: url(asset/image/salad.jpg);
+        background-size: cover;
+        border-radius: 5px;
+        height: 303px;
+        width: 436px;
+    }
+
+    //- Recipe card nine
+    .crispy-chicken-pic {
+        background-image: url(asset/image/crispy-chicken-with-rice.jpg);
+        background-size: cover;
+        border-radius: 5px;
+        height: 303px;
+        width: 436px;
+    }
+
+    //- Recipe card ten
+    .stir-fry-pic {
+        background-image: url(asset/image/stir-fry-noodles.jpg);
+        background-size: cover;
+        border-radius: 5px;
+        height: 303px;
+        width: 436px;
+    }
+
+    //- Recipe card eleven
+    .carbonara-pic {
+        background-image: url(asset/image/carbonara.jpg);
+        background-position: center center;
+        background-size: cover;
+        border-radius: 5px;
+        height: 303px;
+        width: 436px;
+    }
+
+    //- Recipe card twelve
+    .dumplings-pic {
+        background-image: url(asset/image/dumplings.jpg);
+        background-position: center center;
+        background-size: cover;
+        border-radius: 5px;
+        height: 303px;
+        width: 436px;
+    }
 }
