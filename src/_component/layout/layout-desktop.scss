@@ -299,4 +299,94 @@
         width: 436px;
         margin-left: 1rem;
     }
+
+
+    //- Cities
+    .city-pic-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            color: $colour-boulder;
+            text-transform: uppercase;
+            font-size: 0.5rem;
+            margin-top: 0.5rem;
+        }
+
+        p,
+        .right {
+            margin-left: 1rem;
+        }
+
+        .right-text {
+            margin-left: 1rem;
+        }
+
+        .fk--users {
+            margin-top: 0.2rem;
+        }
+
+        .fk--users,
+        .fk--facebook {
+            font-size: 0.5rem;
+            margin-top: 0.2rem;
+
+            span {
+                color: $colour-boulder;
+                font-family: 'Quicksand';
+                margin-left: 0.2rem;
+            }
+            
+            a {
+                color: $colour-emerald;
+                text-decoration: none;
+                font-family: 'Quicksand';
+                margin-left: 0.2rem;
+
+                &:hover {
+                    border-bottom: 2px solid $colour-emerald;
+                }
+            }
+        }
+    }
+
+    .berlin {
+        background-image: url(asset/image/brandenburg-gate.jpg);
+        background-position: center center;
+        background-size: cover;
+        border-radius: 5px;
+        height: 182.4px;
+        width: 273.6px;
+    }
+
+    .sydney {
+        background-image: url(asset/image/sydney-opera-house.jpg);
+        background-position: center center;
+        background-size: cover;
+        border-radius: 5px;
+        height: 182.4px;
+        width: 273.6px;
+        margin-left: 1rem;
+    }
+
+    .london {
+        background-image: url(asset/image/london-bridge.jpg);
+        background-position: center center;
+        background-size: cover;
+        border-radius: 5px;
+        height: 182.4px;
+        width: 273.6px;
+        margin-left: 1rem;
+    }
+
+    .vienna {
+        background-image: url(asset/image/belvedere-castle.jpg);
+        background-position: center center;
+        background-size: cover;
+        border-radius: 5px;
+        height: 182.4px;
+        width: 273.6px;
+        margin-left: 1rem;
+    }
 }
