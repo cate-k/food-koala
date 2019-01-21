@@ -16,7 +16,7 @@ body {
 }
 
 .logo {
-    background-image: url(/asset/image/food-koala-logo.png);
+    background-image: url(asset/image/food-koala-logo.png);
     background-size: cover;
     height: 80px;
     width: 80px;
@@ -87,7 +87,7 @@ body {
 //- Parallax scrolling effect
 .food-background {
     //- The image used
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/asset/image/food-background.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('asset/image/food-background.jpg');
 
     //- Full height
     height: 100%;
@@ -168,7 +168,7 @@ body {
 //- View our menu
 .bg-food-img {
     //- The image used
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/asset/image/casserole.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('asset/image/asparagus-burger.jpg');
     height: 10rem;
     display: flex;
     justify-content: center;
@@ -176,7 +176,7 @@ body {
 
     //- Create the parallax scrolling effect
     background-attachment: fixed;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -268,14 +268,14 @@ body {
 }
 
 .download-app {
-    background-image: url('asset/image/download-app-store.png');
+    background-image: url(asset/image/download-app-store.png);
     background-size: cover;
     height: 32px;
     width: 108px;
 }
 
 .download-on-google {
-    background-image: url('asset/image/download-app-android.png');
+    background-image: url(asset/image/download-app-android.png);
     background-size: cover;
     height: 32px;
     width: 91.7333px;
@@ -527,7 +527,7 @@ body {
 }
 
 .sydney {
-    background-image: url(asset/image/sydney-opera-house.jpg);
+    background-image: url(asset/image/sydney.jpg);
     background-position: center center;
     background-size: cover;
     border-radius: 5px;
@@ -552,3 +552,6 @@ body {
     height: 15rem;
     width: 100%;
 }
+
+
+//- Sign Up
