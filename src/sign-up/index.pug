@@ -1,12 +1,62 @@
 extends ../_component/layout/layout
 
 block content
-    h1.intro-text Sign up!
+    h1.intro-text Get Started
     hr.emerald-hr
     .cards
         .card-one
-            p Basic
+            p.heading Premium
+            p $435
+            p for a month
+            hr.mercury-hr
+            .fk--check
+                p 1 meal everyday
+            .fk--check
+                p Order from 8AM to 11PM
+            .fk--check
+                p No delivery cost
+            .fk--check
+                p Order from Sunday to Saturday
+            hr.mercury-hr
+            a.sign-up-button(href="#") Sign up!
+        br
         .card-two
-            p Pro
+            p.heading Standard
+            p $110
+            p for a week
+            hr.mercury-hr
+            .fk--check
+                p 1 meal everyday
+            .fk--check
+                p Order from 8AM to 11PM
+            .fk--check
+                p No delivery cost
+            .fk--check
+                p Order from Sunday to Saturday
+            hr.mercury-hr
+            a.sign-up-button(href="#") Sign up!
+        br
         .card-three
-            p Premium
+            p.heading Basic
+            p $17
+            p per meal
+            hr.mercury-hr
+            .fk--check
+                p 1 meal
+            .fk--check
+                p Order from 8AM to 11PM
+            .fk--x
+                p 
+            .fk--x
+                p 
+            hr.mercury-hr
+            a.sign-up-button(href="#") Sign up!
+    br
+    p.intro-text Download the app!
+    hr.emerald-hr
+    p.download-body Download via:
+    .download
+        a(href="#")
+            .download-app
+        a(href="#")
+            .download-on-google

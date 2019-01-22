@@ -555,3 +555,49 @@ body {
 
 
 //- Sign Up
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-one,
+.card-two,
+.card-three {
+    border: 1px solid $colour-emerald;
+    border-radius: 5px;
+    font-size: 0.5rem;
+    height: 10rem;
+    width: 10rem;
+
+    p {
+        font-family: 'Quicksand';
+    }
+
+    a {
+        color: $colour-emerald;
+        text-decoration: none;
+        border: 1px solid $colour-emerald;
+        border-radius: 5px;
+        padding: 0.2rem;
+        
+
+        &:hover {
+            color: white;
+            background-color: $colour-emerald;
+        }
+    }
+
+    .mercury-hr {
+        color: $colour-mercury;
+        width: 5%;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .heading {
+        color: $colour-boulder;
+        text-transform: uppercase;
+        font-size: 0.7rem;
+    }
+}
