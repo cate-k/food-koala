@@ -1,6 +1,6 @@
 doctype html
 html
-    - var baseUrl = taskTarget === 'tmp' ? '' : '/food-koala'
+    //- - var baseUrl = taskTarget === 'tmp' ? '' : '/food-koala'
     head
         title FoodKoala
         meta(
@@ -9,7 +9,7 @@ html
         )
         link(
             rel="stylesheet",
-            href=`${baseUrl}style.css`
+            href=`${baseUrl}/style.css`
         )
     body
         include ../menu/menu
