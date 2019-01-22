@@ -14,7 +14,7 @@
   "//": "CUSTOM CONFIGURATION",
   "config": {
     "customUrl": "http://pug-starter.codetap.io",
-    "githubUrl": "http://github.com/marianzburlea/pug-starter.git",
+    "githubUrl": "https://github.com/cate-k/food-koala.git",
     "deployToGithubIo": true,
     "directory": {
       "development": "tmp",
