@@ -392,5 +392,61 @@
 
 
     //- Sign Up
+    .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sign-card-one,
+    .sign-card-two,
+    .sign-card-three {
+        border: 1px solid $colour-emerald;
+        border-radius: 5px;
+        font-size: 0.5rem;
+        height: 8rem;
+        width: 9rem;
+        padding: 0.5rem;
+        margin-left: 0.5rem;
+
+        span {
+            font-family: 'Quicksand';
+            margin-left: 0.2rem;
+        }
+
+        a {
+            color: white;
+            background-color: $colour-emerald;
+            text-decoration: none;
+            border: 1px solid $colour-emerald;
+            border-radius: 5px;
+            padding: 0.2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
     
+            &:hover {
+                background-color: $colour-shamrock;
+            }
+        }
+
+        .mercury-hr {
+            color: $colour-mercury;
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .heading {
+            color: $colour-boulder;
+            text-transform: uppercase;
+            font-size: 0.7rem;
+        }
+
+        .emerald-text {
+            color: $colour-emerald;
+            font-size: 1rem;
+            margin-top: 0.5rem;
+            margin-bottom: 0.2rem;
+        }
+    }
 }

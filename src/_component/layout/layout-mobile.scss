@@ -555,42 +555,40 @@ body {
 
 
 //- Sign Up
-.cards {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.card-one,
-.card-two,
-.card-three {
+.sign-card-one,
+.sign-card-two,
+.sign-card-three {
     border: 1px solid $colour-emerald;
     border-radius: 5px;
     font-size: 0.5rem;
-    height: 10rem;
-    width: 10rem;
+    height: 8rem;
+    width: 90%;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
 
-    p {
+    span {
         font-family: 'Quicksand';
+        margin-left: 0.2rem;
     }
 
     a {
-        color: $colour-emerald;
+        color: white;
+        background-color: $colour-emerald;
         text-decoration: none;
         border: 1px solid $colour-emerald;
         border-radius: 5px;
         padding: 0.2rem;
-        
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
         &:hover {
-            color: white;
-            background-color: $colour-emerald;
+            background-color: $colour-shamrock;
         }
     }
 
     .mercury-hr {
         color: $colour-mercury;
-        width: 5%;
         margin-top: 0.5rem;
         margin-bottom: 0.5rem;
     }
@@ -599,5 +597,12 @@ body {
         color: $colour-boulder;
         text-transform: uppercase;
         font-size: 0.7rem;
+    }
+
+    .emerald-text {
+        color: $colour-emerald;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.2rem;
     }
 }
